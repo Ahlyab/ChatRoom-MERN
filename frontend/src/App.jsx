@@ -20,14 +20,14 @@ function App() {
   };
 
   return (
-    <div className="h-screen flex flex-col">
-      {username ? (
-        <ChatScreen username={username} roomName={roomName} />
-      ) : (
-        <JoinScreen onJoin={onJoin} />
-      )}
-    </div>
-    // <Rooms />
+    // <div className="h-screen flex flex-col">
+    //   {username ? (
+    //     <ChatScreen username={username} roomName={roomName} />
+    //   ) : (
+    //     <JoinScreen onJoin={onJoin} />
+    //   )}
+    // </div>
+    <Rooms />
   );
 }
 
